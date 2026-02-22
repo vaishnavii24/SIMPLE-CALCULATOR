@@ -1,0 +1,33 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size:22px;
+    color:black;
+    background-color: aliceblue;
+
+}
+.container{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.calculator{
+    background-color:antiquewhite;
+    padding:15px;
+    border-radius:30px;
+    display:grid;
+    grid-template-columns: repeat(4,70px);
+
+}
+input{
+    grid-column:span 4;
+    width:260px;
+    height:70px;
+    background-color: antiquewhite;
+    
+}
